@@ -7,21 +7,21 @@ To Run the Application we need:
 
 1) Java 25
 2) Provide your google gemini key in the environment variables (GEMINI_URL , GEMINI_KEY) in the environment configuration to use Gemini AI API
-   GEMINI_URL=GEMINI_URL=https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key\=
+   GEMINI_URL=https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key\=
    GEMINI_KEY=[your key]
 
 For Key login here https://aistudio.google.com/api-keys
 
 API: http://localhost:8080/api/v1/email/generate
 
-sample request:
+Sample Request:
 
 {
     "emailContent":"Hi Ram it is krishna, can you pls share me the update about the project",
     "tone": "friendly"
 }
 
-sample response:
+Sample Response:
 
 Hi Krishna,
 
